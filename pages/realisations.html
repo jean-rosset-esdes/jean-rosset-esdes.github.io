@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style/common.css"/>
+	<link rel="stylesheet" href="../style/realisations.css"/>
+	<title>Mes Réalisations</title>
+	
+<!--Google Analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120157374-1');
+</script>
+<!-- Library JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+<!-- ChatBot-->
+<script>
+      window.fbMessengerPlugins = window.fbMessengerPlugins || {
+        init: function () {
+          FB.init({
+            appId            : '1678638095724206',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.10'
+          });
+        }, callable: []
+      };
+      window.fbAsyncInit = window.fbAsyncInit || function () {
+        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+        window.fbMessengerPlugins.init();
+      };
+      setTimeout(function () {
+        (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) { return; }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }, 0);
+      </script>
+      
+      <div
+        class="fb-customerchat"
+        page_id="1824205610972953"
+        ref="">
+      </div>
+    
+	</head>
+<body>
+	<section class="body2" id="#top">
+	<div class="partie-gauche" id="sticker">
+		<img class="photo-profil" src="../img/photo-profil-page.png"/>
+		<h2>Découvrez mes réalisations</h2>
+		<div class="menu">
+			<a href="../index.html"><div class="menu-row">
+				<img src="../img/house.svg">
+				<h3>HOME</h3>
+			</div></a>
+			<a href="formation.html"><div class="menu-row">
+				<img src="../img/formation.svg">
+				<h3>FORMATIONS</h3>
+			</div></a>
+			<a href="experiences.html"><div class="menu-row">
+				<img src="../img/experience.svg">
+				<h3>EXPERIENCES</h3>
+			</div></a>
+			<a href="realisations.html"><div class="menu-row">
+				<img src="../img/computer.svg">
+				<h3>MES REALISATIONS</h3>
+			</div></a>
+			<a href="hobbies.html"><div class="menu-row">
+				<img src="../img/hobbies.svg">
+				<h3>HOBBIES</h3>
+			</div></a>
+			<a href="#"><div class="menu-row">
+				<img src="../img/contact.svg">
+				<h3>CONTACT</h3>
+			</div></a>
+		</div>
+		</div>	
+		<div class="partie-droite">	
+		<header id="header">
+		</header>
+		<section class="step1">
+			<div class="tile-step">
+				<img src="../img/meeting-client.jpg" alt="">
+			</div>
+			<div class="tile-step">
+				<h3>Etape 01</h3>
+				<h2>Compréhension du problème à résoudre</h2>
+				<h4>Si vous avez une idée d’app, c’est qu’implicitement vous pensez avoir identifié un problème que le mobile pourra résoudre. Grâce à notre expertise en product thinking, nous sommes capables de vous accompagner pour bâtir un projet mobile avec une véritable proposition de valeur.</h4>
+			</div>
+		</section>
+		<section class="step1">
+			<div class="tile-step">
+				<h3>Etape 02</h3>
+				<h2>Identification des personas</h2>
+				<h4>Il est indispensable avant de se lancer dans un projet mobile d’avoir identifié les personas, ce sont des représentations fictives de vos utilisateurs « idéaux ». Vous pourrez ainsi bâtir une application mobile qui leur soit parfaitement adaptée.</h4>
+			</div>
+			<div class="tile-step">
+				<img src="../img/identification clients.jpg" alt="">
+			</div>
+		</section>
+		<section class="step1">
+			<div class="tile-step">
+				<img src="../img/conception-client.jpg" alt="">
+			</div>
+			<div class="tile-step">
+				<h3>Etape 03</h3>
+				<h2>Conception d’interfaces clés</h2>
+				<h4>Nos UI/UX Designers, en lien avec nos chefs de projets fonctionnels, sont au fait des dernières tendances en terme ergonomiques dans le domaine du Mobile. Ils vous accompagneront donc la réalisation des interfaces de votre projet.</h4>
+			</div>
+		</section>
+		<section class="step1">
+			<div class="tile-step">
+				<h3>Etape 04</h3>
+				<h2>Développement d’une version</h2>
+				<h4>Nous mettons en place une équipe composée d’un architecte, d’un chef de projets technique, et d’ingénieurs mobiles et back-end afin de réaliser le développement de votre application mobile.</h4>
+			</div>
+			<div class="tile-step">
+				<img src="../img/dev-client.jpg" alt="">
+			</div>
+		</section>
+		<section class="step1">
+			<div class="tile-step">
+				<img src="../img/kpi-client.jpg" alt="">
+			</div>
+			<div class="tile-step">
+				<h3>Etape 05</h3>
+				<h2>Mesure et validation</h2>
+				<h4>Cette étape permet de valider ou d’infirmer les hypothèses prises initialement, grâce à la mise en place d’outils de mesure. Nous réitérons ensuite les 3 dernières étapes dans un cycle Agile de 2 à 3 semaines afin d’aboutir à l’application mobile parfaite.</h4>
+			</div>
+		</section>
+		<footer>
+			<div class="tile-footer" id="designer">
+				<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
+			</div>
+			<div class="tile-footer" id="reseaux-sociaux"> 
+				<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img src="../img/facebook.png"/></a>
+				<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img src="../img/linkedin.png"/></a>
+				<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img src="../img/youtube.png"/></a>
+			</div>
+			<div class="tile-footer" id="top">
+				<a class="js-scrollTo" href="#header" target="_blank"><img src="../img/arrow-top.png"/></a>
+			</div>
+		</footer>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style/formation.css">
+	<link rel="stylesheet" href="../style/common.css">
+	<title>Mes Formations</title>
+<!--Google Analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120157374-1');
+</script>
+<!-- Library JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+<!-- ChatBot-->
+<script>
+      window.fbMessengerPlugins = window.fbMessengerPlugins || {
+        init: function () {
+          FB.init({
+            appId            : '1678638095724206',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.10'
+          });
+        }, callable: []
+      };
+      window.fbAsyncInit = window.fbAsyncInit || function () {
+        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+        window.fbMessengerPlugins.init();
+      };
+      setTimeout(function () {
+        (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) { return; }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }, 0);
+      </script>
+      
+      <div
+        class="fb-customerchat"
+        page_id="1824205610972953"
+        ref="">
+      </div> 
+</head>
+<body>
+	<section class="body2" id="#top">
+	<div class="partie-gauche" id="sticker">
+		<img class="photo-profil" alt="photo de profil jean rosset" src="../img/photo-profil-page.png"/>
+		<h2>Découvrez mes formations</h2>
+		<div class="menu">
+			<a href="../index.html"><div class="menu-row">
+				<img alt="home" src="../img/house.svg">
+				<h3>HOME</h3>
+			</div></a>
+			<a href="formation.html"><div class="menu-row">
+				<img alt="icone pour formation" src="../img/formation.svg">
+				<h3>FORMATIONS</h3>
+			</div></a>
+			<a href="experiences.html"><div class="menu-row">
+				<img alt="icone pour experience" src="../img/experience.svg">
+				<h3>EXPERIENCES</h3>
+			</div></a>
+			<a href="realisations.html"><div class="menu-row">
+				<img src="../img/computer.svg">
+				<h3>MES REALISATIONS</h3>
+			</div></a>
+			<a href="hobbies.html"><div class="menu-row">
+				<img alt="icone pour hobbies" src="../img/hobbies.svg">
+				<h3>HOBBIES</h3>
+			</div></a>
+			<a href="#"><div class="menu-row">
+				<img alt="icone pour page contact" src="../img/contact.svg">
+				<h3>CONTACT</h3>
+			</div></a>
+		</div>
+		</div>	
+		<div class="partie-droite">	
+		<header>
+		</header>
+			<div class="formation1" id="ESDES">
+				<a class="js-scrollTo" href="#ESDES"><img class="arrow" src="../img/down-arrow.png" alt="Description de l’image"/></a>
+			<div class="bloc-formation">
+				<h4>2014 - 2019</h4>
+				<h2>Marketing Digital & Business</h2>
+				<h3>Ecole Supérieur pour le Développement Economique et Social</h3>
+				<h4>ESDES - MASTER 1</h4>
+				<hr>
+				<div class="bloc-formation-more">
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" alt="icone compétences" src="../img/skill.png"/>
+						<h2>Maitrise de la suite Adobe/Office</h2>
+					</div>
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" alt="icone compétences" src="../img/browser.png"/>
+						<h2>Forte appétence pour le langage HTML/CSS</h2>
+					</div>
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" alt="icone compétences" src="../img/diplome.png"/>
+						<h2>Diplomé de JAMK, Finlande</h2>
+					</div>
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" alt="icone compétences" src="../img/web-page.png"/>
+						<h2>Passioné par le Web Marketing</h2>
+					</div>
+				</div>
+			</div>
+				<a class="js-scrollTo" href="#MOOC"><img class="arrow" src="../img/down-arrow.png" alt="fleche vers le bas"/></a>
+		</div>
+		<div class="formation1" id="MOOC">
+				<a class="js-scrollTo" href="#ESDES"><img class="arrow" src="../img/down-arrow-up.png" alt="fleche vers le haut"/></a>
+			<div class="bloc-formation">
+				<h4>2017</h4>
+				<h2>Réussir le Changement</h2>
+				<h3>Ecole Supérieur des Sciences Economiques et Commerciales</h3>
+				<h4>ESSEC - MOOC</h4>
+				<hr>
+				<div class="bloc-formation-more">
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" alt="icone diplome" src="../img/diplome.png"/>
+						<a href="https://viewer.envoi-cv.com/v/86310bb9f0" target="_blank"><h2>Certificat - Réussir le changement</h2></a>
+					</div>
+				</div>
+			</div>
+				<a class="js-scrollTo" href="#BAC"><img class="arrow" src="../img/down-arrow.png" alt="fleche vers le bas"/></a>
+		</div>
+		<div class="formation1" id="BAC">
+				<a class="js-scrollTo" href="#MOOC"><img class="arrow" src="../img/down-arrow-up.png" alt="fleche vers le haut"/></a>
+			<div class="bloc-formation">
+				<h4>2014</h4>
+				<h2>Baccalauréat Economique & Social</h2>
+				<h3>Lycée Notre Dame des Victoires</h3>
+				<h4>Voiron, France</h4>
+				<hr>
+				<div class="bloc-formation-more">
+					<div class="tile-bloc-formation-more">
+						<img class="image-formation" src="../img/diplome.png"/>
+						<h2>Diplomé du Baccalauréat</h2>
+					</div>
+				</div>
+			</div>
+				<a class="js-scrollTo" href="#ESDES"><img class="arrow" src="../img/arrow-top.png" alt="fleche vers le haut"/></a>
+		</div>
+		<footer>
+			<div class="tile-footer" id="designer">
+				<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
+			</div>
+			<div class="tile-footer" id="reseaux-sociaux"> 
+				<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img alt="icone RS" src="../img/facebook.png"/></a>
+				<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img alt="icone RS" src="../img/linkedin.png"/></a>
+				<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img alt="icone RS" src="../img/youtube.png"/></a>
+			</div>
+			<div class="tile-footer" id="top">
+				<a class="js-scrollTo" href="#ESDES" target="_blank"><img alt="fleche vers le haut" src="../img/arrow-top.png"/></a>
+			</div>
+		</footer>
+		</div>
+	</section>
+</body>
+</html>
