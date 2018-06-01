@@ -169,7 +169,6 @@ header img:hover{
 transition: .5s ease;
 }
 #about-droite{
-	margin-left: 1px;
 	background-color: #5a384f;
 }
 #about-gauche img{
@@ -325,7 +324,6 @@ transition: .5s ease;
 }
 #form{
 	background-color: #003752;
-	margin-right: 2px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
