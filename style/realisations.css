@@ -176,7 +176,7 @@
 	}
 	.menu-row{
 		padding-left: 10px;
-		padding-right: 10px;
+		padding-right: 0px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
