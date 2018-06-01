@@ -162,10 +162,30 @@ animation: pulse 2s infinite;
     font-weight: 100;
 	text-align: center;
 }
+.tile-bloc-formation-more p{
+	font-weight: 100;
+    margin: 5% 1% 0;
+}
 .tile-bloc-formation-more a{
 	text-decoration: none;
 }
-
+@media all and (max-width: 950px) {
+	.bloc-formation h2{
+		font-size: 20px;
+	}
+	.bloc-formation h4{
+		font-size: 15px;
+	}
+	.bloc-formation h3{
+		font-size: 16px;
+		padding-right: 20px;
+    	padding-left: 20px;
+	}
+	.tile-bloc-formation-more p{
+		font-size: 13px;
+	}
+	
+}
 /*annimation bloc*/
 @keyframes bounce{
      from {transform: translateY(0);}
@@ -204,5 +224,3 @@ animation: pulse 2s infinite;
       box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
   }
 }
-
-/**RESPONSIVE**/

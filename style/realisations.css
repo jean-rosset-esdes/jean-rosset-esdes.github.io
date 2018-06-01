@@ -49,7 +49,7 @@
 .menu-row:hover{
 	border:1px solid #fff;
 	border-radius: 100px;
-animation: pulse 2s infinite;
+	animation: pulse 2s infinite;
 }
 .menu-row img{
 	width: 27px;
@@ -77,12 +77,34 @@ animation: pulse 2s infinite;
 .tile-step{
 	min-height: 30vh;
 	width: 40%;
-	padding-right: 20px;
+	margin-right: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+@media all and (max-width: 550px) {
+	.step1{
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		background-image: url(../img/background-realisation-mobile.png);
+		background-position: left;
+		background-size: cover;
+	}
+	.tile-step{
+		width: 80%;
+}
+	.step1 img{
+		width: 60%;
+	}
+	#step1-reverse{
+		flex-direction: column-reverse;
+	}
+	#step1-reverse2{
+		flex-direction: column-reverse;
+	}
 }
 .tile-step h2{
 	margin-top: 0px;
@@ -98,7 +120,7 @@ animation: pulse 2s infinite;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.tile-step h4{
+.tile-step p{
 	margin-top: 0px;
     margin-bottom: 0px;
     font-size: 15px;
@@ -160,5 +182,29 @@ animation: pulse 2s infinite;
   }
 	.menu-row h3{
 		font-size: 10px;
+	}
+}
+@media all and (max-width: 950px) {
+  .menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+	.menu-row h3{
+		font-size: 8px;
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+	.menu-row{
+		padding-left: 10px;
+		padding-right: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu-row:hover{
+		border: 0px;
 	}
 }
