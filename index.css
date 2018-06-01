@@ -330,18 +330,11 @@ transition: .5s ease;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
-}
-
-#maps-tile{
-	display: flex;
-	min-height: 45vh;
-	width: 50%;
+	width: 100%;
 }
 /*Contact-form*/
 form {
-	min-height: 42vh;
-	width: 50%;
+	min-height: 40vh;
 	color: #003752;
 	background-color: #fff;
 	border-radius: 10px;
@@ -452,3 +445,11 @@ textarea {
   }
 }
 /**RESPONSIVE**/
+@media screen and (max-width: 600px) {
+  .tule h2 {
+	font-size: 16px
+	}
+	#menu-hobbies{
+		background-position:left;
+	}
+  }
