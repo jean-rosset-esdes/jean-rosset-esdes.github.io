@@ -84,28 +84,6 @@
 	align-items: center;
 	text-align: center;
 }
-@media screen and (max-width: 550px) {
-	.step1{
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		background-image: url(../img/background-realisation-mobile.png);
-		background-position: left;
-		background-size: cover;
-	}
-	.tile-step{
-		width: 80%;
-}
-	.step1 img{
-		width: 60%;
-	}
-	#step1-reverse{
-		flex-direction: column-reverse;
-	}
-	#step1-reverse2{
-		flex-direction: column-reverse;
-	}
-}
 .tile-step h2{
 	margin-top: 0px;
     margin-bottom: 2%;
@@ -206,5 +184,25 @@
 	}
 	.menu-row:hover{
 		border: 0px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.step1{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-image: none;
+	}
+	.tile-step{
+		width: 90%;
+}
+	.step1 img{
+		width: 60%;
+	}
+	#step1-reverse{
+		flex-direction: column-reverse;
+	}
+	#step1-reverse2{
+		flex-direction: column-reverse;
 	}
 }
