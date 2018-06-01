@@ -103,7 +103,7 @@ body{
 	width: 60%;
 	border-top: 3px solid #eee;
 }
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .partie-gauche {
     position: absolute;
     left: -999em;

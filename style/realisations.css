@@ -84,7 +84,7 @@
 	align-items: center;
 	text-align: center;
 }
-@media all and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 	.step1{
 		flex-direction: column;
 		justify-content: center;
@@ -156,7 +156,7 @@
   }
 }
 /**RESPONSIVE**/
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .partie-gauche {
 	min-height: 10vh;
 	width: 100%;
@@ -173,7 +173,7 @@
 		display: none;
 	}
 }
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .menu {
 	display: flex;
 	flex-direction: row;
@@ -184,7 +184,7 @@
 		font-size: 10px;
 	}
 }
-@media all and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   .menu {
 	display: flex;
 	flex-direction: row;

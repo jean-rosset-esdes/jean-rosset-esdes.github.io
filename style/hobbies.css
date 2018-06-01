@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/** Photo Gallery**/
+/** Photo Gscreenery**/
 * {
     box-sizing: border-box;
 }
@@ -159,7 +159,7 @@ section p{
 }
 
 /**RESPONSIVE**/
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .partie-gauche {
 	min-height: 10vh;
 	width: 100%;
@@ -176,7 +176,7 @@ section p{
 		display: none;
 	}
 }
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .menu {
 	display: flex;
 	flex-direction: row;
@@ -187,7 +187,7 @@ section p{
 		font-size: 10px;
 	}
 }
-@media all and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   .menu {
 	display: flex;
 	flex-direction: row;

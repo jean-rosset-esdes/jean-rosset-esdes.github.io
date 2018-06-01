@@ -214,7 +214,7 @@ animation: pulse 2s infinite;
 }
 
 /**RESPONSIVE**/
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .partie-gauche {
 	min-height: 10vh;
 	width: 100%;
@@ -231,7 +231,7 @@ animation: pulse 2s infinite;
 		display: none;
 	}
 }
-@media all and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .menu {
 	display: flex;
 	flex-direction: row;
@@ -242,7 +242,7 @@ animation: pulse 2s infinite;
 		font-size: 10px;
 	}
 }
-@media all and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   .menu {
 	display: flex;
 	flex-direction: row;
