@@ -174,14 +174,7 @@ animation: pulse 2s infinite;
 	margin-left: 45%;
 	animation: bounce 1.7s ease infinite alternate;
 }
-/*reglage section 4 - Experience ete*/
-.formation-ete{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	
-}
+
 /*annimation*/
 @keyframes bounce{
      from {transform: translateY(0);}
@@ -264,5 +257,40 @@ animation: pulse 2s infinite;
 	}
 	.menu-row:hover{
 		border: 0px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.formation{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#Aressy{
+		flex-direction: column-reverse;
+	}
+	#experience1{
+		width: 90%;
+	}
+	#Societe-Generale{
+		background-image: none;
+	}
+	#experience2{
+		width: 90%;
+		background-image: none;
+	}
+	#Aressy{
+		background-image: none;
+	}
+	#experience3{
+		width: 90%;
+	}
+	#Foncia{
+		background-image: none;
+	}
+	#experience1-image{
+		background-image: url(../img/experience2.png);
+		background-size: 80%;
+		background-position: left;
 	}
 }
