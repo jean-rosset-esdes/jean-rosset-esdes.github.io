@@ -237,7 +237,7 @@ transition: .5s ease;
 	margin-left: 20px
 }
 #menu-formation{
-	background-color: #F2806B;
+	background-color: #1041FB;
 	background-image: url(img/illustration-formation.png);
 	background-position:top;
 	background-size: cover;
@@ -247,7 +247,7 @@ transition: .5s ease;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-end;
-	background-color: #E39639;
+	background-color: #FFDF00;
 	background-image: url(img/illustration-experience.png);
 	background-position: bottom;
 	background-size: cover;
@@ -256,7 +256,7 @@ transition: .5s ease;
     margin-right: 2px;
 }
 #menu-hobbies{
-	background-color: #9C93A5;
+	background-color: #FF0266;
 	background-image: url(img/illustration-hobbies.png);
 	background-position: bottom;
 	background-size: cover;
