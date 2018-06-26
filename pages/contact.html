@@ -1,148 +1,111 @@
-<!doctype html>
-<html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0">
-	<link rel="stylesheet" href="../style/contact.css">
-	<link rel="stylesheet" href="../style/common.css">
-	<title>Me Contacter</title>
-<!--Google Analytics-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!doctype html>
+	<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" href="../style/contact.css">
+		<link rel="stylesheet" href="../style/common.css">
+		<title>Me Contacter</title>
+	<!--Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  gtag('config', 'UA-120157374-1');
-</script>
-<!-- Library JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
-			var page = $(this).attr('href'); // Page cible
-			var speed = 750; // Durée de l'animation (en ms)
-			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-			return false;
+	  gtag('config', 'UA-120157374-1');
+	</script>
+	<!-- Library JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
 		});
-	});
-</script>
-<!-- ChatBot-->
-<script>
-      window.fbMessengerPlugins = window.fbMessengerPlugins || {
-        init: function () {
-          FB.init({
-            appId            : '1678638095724206',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v2.10'
-          });
-        }, cscreenable: []
-      };
-      window.fbAsyncInit = window.fbAsyncInit || function () {
-        window.fbMessengerPlugins.cscreenable.forEach(function (item) { item(); });
-        window.fbMessengerPlugins.init();
-      };
-      setTimeout(function () {
-        (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) { return; }
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      }, 0);
-      </script>
-      
-      <div
-        class="fb-customerchat"
-        page_id="1824205610972953"
-        ref="">
-      </div> 
-</head>
-<body>
-	<section class="body2" id="#top">
-	<div class="partie-gauche" id="sticker">
-		<img class="photo-profil" alt="photo de profil jean rosset" src="../img/photo-profil-page.png"/>
-		<h2>Me contacter</h2>
-		<div class="menu">
-			<a href="../index.html"><div class="menu-row">
-				<img alt="home" src="../img/house.svg">
-				<h3>HOME</h3>
-			</div></a>
-			<a href="formation.html"><div class="menu-row">
-				<img alt="icone pour formation" src="../img/formation.svg">
-				<h3>FORMATIONS</h3>
-			</div></a>
-			<a href="experiences.html"><div class="menu-row">
-				<img alt="icone pour experience" src="../img/experience.svg">
-				<h3>EXPERIENCES</h3>
-			</div></a>
-      <a href="expertise.html"><div class="menu-row">
-        <img src="../img/expertise.svg">
-        <h3>EXPERTISE</h3>
-        </div></a>
-			<a href="realisations.html"><div class="menu-row">
-				<img src="../img/computer.svg">
-				<h3>MES REALISATIONS</h3>
-			</div></a>
-			<a href="hobbies.html"><div class="menu-row">
-				<img alt="icone pour hobbies" src="../img/hobbies.svg">
-				<h3>HOBBIES</h3>
-			</div></a>
-			<a href="contact.html"><div class="menu-row">
-				<img alt="icone pour page contact" src="../img/contact.svg">
-				<h3>CONTACT</h3>
-			</div></a>
-		</div>
-		</div>
-		<div class="partie-droite">	
-		<header>
-		</header>
-		<section class="header">
-			<div class="header-titre">
-				<h2>Restons en contact</h2>
-				<p>Si vous souhaitez rentrer en contact avec moi, pour échanger sur mon parcours, pour travailler ensemble ou tout simplement pour en savoir plus sur mes activités, n'hésitez pas à me contacter.</p>
+		</script>
+	</head>
+	<body>
+		<section class="body2" id="#top">
+		<div class="partie-gauche" id="sticker">
+			<img class="photo-profil" alt="photo de profil jean rosset" src="../img/photo-profil-page.png"/>
+			<h2>Me contacter</h2>
+			<div class="menu">
+				<a href="../index.html"><div class="menu-row">
+					<img alt="home" src="../img/house.svg">
+					<h3>HOME</h3>
+				</div></a>
+				<a href="formation.html"><div class="menu-row">
+					<img alt="icone pour formation" src="../img/formation.svg">
+					<h3>FORMATIONS</h3>
+				</div></a>
+				<a href="experiences.html"><div class="menu-row">
+					<img alt="icone pour experience" src="../img/experience.svg">
+					<h3>EXPERIENCES</h3>
+				</div></a>
+				<a href="realisations.html"><div class="menu-row">
+					<img src="../img/computer.svg">
+					<h3>MES REALISATIONS</h3>
+				</div></a>
+				<a href="hobbies.html"><div class="menu-row">
+					<img alt="icone pour hobbies" src="../img/hobbies.svg">
+					<h3>HOBBIES</h3>
+				</div></a>
+				<a href="contact.html"><div class="menu-row">
+					<img alt="icone pour page contact" src="../img/contact.svg">
+					<h3>CONTACT</h3>
+				</div></a>
 			</div>
-			<div class="header-contact">
-				<div class="tile-contact">
-					<img src="../img/maps.png" alt="icone-contact-adresse">
-					<h3>Adresse</h3>
-					<h4>15Bis Rue Danielle Casanova <br> Rueil-Malmaison, 92500 <br> FRANCE</h4>
-				</div>
-				<div class="tile-contact">
-					<img src="../img/phone.png" alt="Icone-contact-téléphone">
-					<h3>Téléphone</h3>
-					<h4>0679091686</h4>
-				</div>
-				<div class="tile-contact">
-					<img src="../img/email.png" alt="Icone-contact-email">
-					<h3>Email</h3>
-					<h4>jean.rosset@esdes.ucly.fr</h4>
-				</div>
-				<div class="tile-contact">
-					<img src="../img/linkedin-contact.png" alt="Icone-contact-linkedin">
-					<h3>Linkedin</h3>
-					<a href="https://www.linkedin.com/in/jean-rosset/"><h4>Se connecter</h4></a>
-				</div>
-				</div>
-			</section>
-		<footer>
-			<div class="tile-footer" id="designer">
-				<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
 			</div>
-			<div class="tile-footer" id="reseaux-sociaux"> 
-				<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img src="../img/facebook.png"/></a>
-				<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img src="../img/linkedin.png"/></a>
-				<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img src="../img/youtube.png"/></a>
+			<div class="partie-droite">	
+			<header>
+			</header>
+			<section class="header">
+				<div class="header-titre">
+					<h2>Contactez-moi :</h2>
+					<p>Si vous souhaitez rentrer en contact avec moi, pour échanger sur mon parcours, pour travailler ensemble ou tout simplement pour en savoir plus sur mes activités, n'hésitez pas à me contacter.</p>
+				</div>
+				<div class="header-contact">
+					<div class="tile-contact">
+						<img src="../img/maps.png" alt="icone-contact-adresse">
+						<h3>Adresse</h3>
+						<h4>15Bis Rue Danielle Casanova <br> Rueil-Malmaison, 92500 <br> FRANCE</h4>
+					</div>
+					<div class="tile-contact">
+						<img src="../img/phone.png" alt="Icone-contact-téléphone">
+						<h3>Téléphone</h3>
+						<h4>0679091686</h4>
+					</div>
+					<div class="tile-contact">
+						<img src="../img/email.png" alt="Icone-contact-email">
+						<h3>Email</h3>
+						<h4>jean.rosset@esdes.ucly.fr</h4>
+					</div>
+					<div class="tile-contact">
+						<img src="../img/linkedin-contact.png" alt="Icone-contact-linkedin">
+						<h3>Linkedin</h3>
+						<a href="https://www.linkedin.com/in/jean-rosset/"><h4>Se connecter</h4></a>
+					</div>
+					</div>
+				</section>
+			<footer>
+				<div class="tile-footer" id="designer">
+					<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
+				</div>
+				<div class="tile-footer" id="reseaux-sociaux"> 
+					<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img src="../img/facebook.png"/></a>
+					<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img src="../img/linkedin.png"/></a>
+					<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img src="../img/youtube.png"/></a>
+				</div>
+				<div class="tile-footer" id="top">
+					<a class="js-scrollTo" href="#header" target="_blank"><img src="../img/arrow-top.png"/></a>
+				</div>
+			</footer>
 			</div>
-			<div class="tile-footer" id="top">
-				<a class="js-scrollTo" href="#header" target="_blank"><img src="../img/arrow-top.png"/></a>
-			</div>
-		</footer>
-		</div>
-	</section>
-</body>
-</html>	
+		</section>
+	</body>
+	</html>	
