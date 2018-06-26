@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" href="../style/common.css"/>
+	<link rel="stylesheet" href="../style/experiences.css"/>
+	<title>Mes Experiences</title>
+<!--Google Analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120157374-1');
+</script>
+<!-- Library JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+</head>
+<body>
+	<section class="body2" id="#top">
+	<div class="partie-gauche" id="sticker">
+		<img class="photo-profil" alt="photo de profil jean rosset" src="../img/photo-profil-page.png"/>
+		<h2>Découvrez mes formations</h2>
+		<div class="menu">
+			<a href="../index.html"><div class="menu-row">
+				<img alt="home" src="../img/house.svg">
+				<h3>HOME</h3>
+			</div></a>
+			<a href="formation.html"><div class="menu-row">
+				<img alt="icone pour formation" src="../img/formation.svg">
+				<h3>FORMATIONS</h3>
+			</div></a>
+			<a href="experiences.html"><div class="menu-row">
+				<img alt="icone pour experience" src="../img/experience.svg">
+				<h3>EXPERIENCES</h3>
+			</div></a>
+			<a href="realisations.html"><div class="menu-row">
+				<img src="../img/computer.svg">
+				<h3>MES REALISATIONS</h3>
+			</div></a>
+			<a href="hobbies.html"><div class="menu-row">
+				<img alt="icone pour hobbies" src="../img/hobbies.svg">
+				<h3>HOBBIES</h3>
+			</div></a>
+			<a href="contact.html"><div class="menu-row">
+				<img alt="icone pour page contact" src="../img/contact.svg">
+				<h3>CONTACT</h3>
+			</div></a>
+		</div>
+		</div>	
+		<div class="partie-droite">	
+		<header id="header">
+		</header>
+		<section class="formation" id="Societe-Generale">
+		<div class="tile-formation" id="experience1-image">
+			<img src="../img/mockup-carte-défense.png"/>
+		</div>
+		<div class="tile-formation" id="experience1">
+		  <h5>Septembre 2017 - Août 2018</h5>
+		  <h2>Société Générale</h2>
+			<h3>Consultant en conduite du changement</h3>
+			<hr>
+		  <h4>Volet communication :</h4>
+			<ul type="circle">
+				<li><p class="p">Construction des livrables du plan de communication du Programme</p></li>
+				<li><p class="p">Elaboration du contenu éditorial de l’intranet du Programme</p></li>
+				<li><p class="p">Animation de la communauté des chefs de projet KYC des entités IBFS</p></li>
+			</ul>
+		  <h4>Volet formation :</h4>
+		  	<ul type="circle">
+				<li><p class="p">Identification des besoins de formation</p></li>
+				<li><p class="p">Création des contenus de formation</p></li>
+			</ul>
+		  <h4>Volet Conduite du changement :</h4> 
+		  	<ul type="circle">
+				<li><p class="p">Suivi de l’avancement des chantiers filiale et de leurs indicateurs de performance</p></li>
+				<li><p class="p">Création d'une plateforme visant à améliorer le travail collaboratif</p></li>
+				<li><p class="p">Accompagnement dans la mise en place d'une chatbot visant à aider les Conseillers Clientèles</p></li>
+			</ul>
+	  </div>
+    </section>
+    	<section class="formation" id="Aressy">
+		<div class="tile-formation" id="experience2">
+		  <h5>MAI 2017 - SEPTEMBRE 2017</h5>
+		  <h2>Aressy & Associés</h2>
+		  <h3>Chef de Projet</h3>
+		  <hr>
+		  <h4>Accompagnement de projets pour des clients internationnaux sur des sujets "print & digital" :</h4>
+			<ul type="circle">
+				<li><p class="p">Prendre en charge le projet du cahier des charges à la recette utilisateur et son déploiement</p></li>
+				<li><p class="p">Suivre la conception du projet (besoin client, spécification fonctionnelle, lotissements, livrables, critères de réception…)</p></li>
+				<li><p class="p">Assurer la rentabilité du projet (facture, négociation)</p></li>
+				<li><p class="p">Assurer le suivi auprès des clients</p></li>
+				<li><p class="p">Participer à l'élaboration des réponses aux appels d'offres</p></li>
+			</ul>
+		  <h4>Refonte complète du site d'une startup dans le domaine du data (Wordpress) :</h4>
+		  	<ul type="circle">
+				<li><p class="p">SEO</p></li>
+				<li><p class="p">Mise en place d'outils pour suivi des KPI's</p></li>
+				<li><p class="p">Réseaux sociaux du client</p></li>
+			</ul>
+	  </div>
+	  <div class="tile-formation" id="experience2-image">
+			<img id="iphone-aressy" src="../img/mockup-iphone-aressy.png"/>
+	  </div>
+    </section>
+    <div class="formation" id="Foncia">
+		<div class="tile-formation" id="experience3-image">
+			<img id="watch" src="../img/mockup-watch-foncia.png"/>
+		</div>
+		<div class="tile-formation" id="experience3">
+		  <h5>mai 2015 - septembre 2015</h5>
+		  <h2>Foncia</h2>
+			<h3>Négociateur en immobilier</h3>
+			<hr>
+			<ul type="circle">
+				<li><p class="p">Mise en avant des annonces</p></li>
+				<li><p class="p">Démarchage commercial</p></li>
+				<li><p class="p">Gestion des dossiers locatifs</p></li>
+				<li><p class="p">Création de contenu Web</p></li>
+			</ul>
+	  </div>
+    </div>
+		<footer>
+			<div class="tile-footer" id="designer">
+				<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
+			</div>
+			<div class="tile-footer" id="reseaux-sociaux"> 
+				<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img src="../img/facebook.png"/></a>
+				<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img src="../img/linkedin.png"/></a>
+				<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img src="../img/youtube.png"/></a>
+			</div>
+			<div class="tile-footer" id="top">
+				<a class="js-scrollTo" href="#header" target="_blank"><img src="../img/arrow-top.png"/></a>
+			</div>
+		</footer>
+		</div>
+	</section>
+</body>
+</html>

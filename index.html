@@ -1,129 +1,101 @@
-<!doctype html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial scale=1.0">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-		<link rel="stylesheet" href="index.css"/>
-		<link rel="stylesheet" href="style/common.css">
-		<title>CV Officiel</title>
-<!--Google Analytics-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial scale=1.0">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+			<link rel="stylesheet" href="index.css"/>
+			<link rel="stylesheet" href="style/common.css">
+			<title>CV Officiel</title>
+	<!--Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  gtag('config', 'UA-120157374-1');
-</script>
-<!-- Library JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
-			var page = $(this).attr('href'); // Page cible
-			var speed = 750; // Durée de l'animation (en ms)
-			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-			return false;
+	  gtag('config', 'UA-120157374-1');
+	</script>
+	<!-- Library JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
 		});
-	});
-</script>
-<!-- ChatBot-->
-<script>
-      window.fbMessengerPlugins = window.fbMessengerPlugins || {
-        init: function () {
-          FB.init({
-            appId            : '1678638095724206',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v2.10'
-          });
-        }, cscreenable: []
-      };
-      window.fbAsyncInit = window.fbAsyncInit || function () {
-        window.fbMessengerPlugins.cscreenable.forEach(function (item) { item(); });
-        window.fbMessengerPlugins.init();
-      };
-      setTimeout(function () {
-        (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) { return; }
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      }, 0);
-      </script>  
-	</head>
-		<body>
-		<div class="fb-customerchat" page_id="1824205610972953"></div>
-		<section class="body2">
-		<div class="partie-gauche" id="sticker">
-			<img class="mockup-header" alt="mockup d'un écran imac avec plusieurs screen d'écran" src="img/mockup-header.png"/>
-			<div class="partie-gauche-txt">
-				<h1>Marketing Digital & Business</h1>
-				<h2>En recherche d'alternance</h2>
-				<hr>
-				<h3>Jean ROSSET</h3>
-				<img class="photo-profil" alt="photo de profil jean Rosset" src="img/photo-profil.png"/>
-			</div>	
-		</div>
-		<div class="partie-droite">
-			<header id="header">
-			<a class="js-scrollTo" href="#about-droite"><img alt="fleche vers le bas" src="img/down-arrow-header.png"></a>
-			</header>
-			<div class="about">
-				<div class="about-tile" id="about-droite">
-					<h1>Etudiant, en Alternance</h1>
-					<h2>Étudiant à l'ESDES, je suis enthousiaste et motivé. Je suis attiré par des expériences internationales et je n'ai pas peur de l'aventure. Ma vie sportive m'a donné un fort esprit d'équipe, et a fait de moi un challenger. Je suis actuellement en Master 1 Marketing Digital & Business en Alternance.</h2>
+	</script> 
+		</head>
+			<body>
+			<section class="body2">
+			<div class="partie-gauche" id="sticker">
+				<img class="mockup-header" alt="mockup d'un écran imac avec plusieurs screen d'écran" src="img/mockup-header.png"/>
+				<div class="partie-gauche-txt">
+					<h1>Marketing Digital & Business</h1>
+					<h2>En recherche d'alternance</h2>
+					<hr>
+					<h3>Jean ROSSET</h3>
+					<img class="photo-profil" alt="photo de profil jean Rosset" src="img/photo-profil.png"/>
+				</div>	
+			</div>
+			<div class="partie-droite">
+				<header id="header">
+				<a class="js-scrollTo" href="#about-droite"><img alt="fleche vers le bas" src="img/down-arrow-header.png"></a>
+				</header>
+				<div class="about">
+					<div class="about-tile" id="about-droite">
+						<h1>Etudiant, en Alternance</h1>
+						<h2>Étudiant à l'ESDES, je suis enthousiaste et motivé. Je suis attiré par des expériences internationales et je n'ai pas peur de l'aventure. Ma vie sportive m'a donné un fort esprit d'équipe, et a fait de moi un challenger. Je suis actuellement en Master 1 Marketing Digital & Business en Alternance.</h2>
+					</div>
 				</div>
-			</div>
-			<div class="numbers">
-	  			<h2>3 ans d'expériences</h2>
-				<h2>3 langues</h2>
-				<h2>Marketing Digital</h2>
-				<h2>Passioné par le web</h2>
-			</div>
-			<div class="menu">
-				<div class="tile-menu" id="menu-formation">
-				<a class="tule" href="pages/formation.html"> 
-					<h2>Formations</h2>
-				</a></div>
-				<div class="tile-menu" id="menu-experience">
-				<a class="tule" href="pages/experiences.html">
-					<h2 id="experience">Experiences</h2>
+				<div class="numbers">
+					<h2>3 ans d'expériences</h2>
+					<h2>3 langues</h2>
+					<h2>Marketing Digital</h2>
+					<h2>Passioné par le web</h2>
+				</div>
+				<div class="menu">
+					<div class="tile-menu" id="menu-formation">
+					<a class="tule" href="pages/formation.html"> 
+						<h2>Formations</h2>
 					</a></div>
-				<div class="tile-menu" id="menu-hobbies">
-				<a class="tule" href="pages/hobbies.html">
-					<h2>Hobbies</h2>
-				</a></div>
-			</div>
-			<div class="mes-realisations">
-				<div class="tile-mes-realisations">
-				<a class="tule2" href="pages/realisations.html">
-						<h2>Mes réalisations</h2>
-						<h3>Sites web réalisés - Etape par Etape</h3>
-				</a></div>
-			</div>
-			<footer>
-				<div class="tile-footer" id="designer">
-					<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
-					
+					<div class="tile-menu" id="menu-experience">
+					<a class="tule" href="pages/experiences.html">
+						<h2 id="experience">Experiences</h2>
+						</a></div>
+					<div class="tile-menu" id="menu-hobbies">
+					<a class="tule" href="pages/hobbies.html">
+						<h2>Hobbies</h2>
+					</a></div>
 				</div>
+				<div class="mes-realisations">
+					<div class="tile-mes-realisations">
+					<a class="tule2" href="pages/realisations.html">
+							<h2>Mes réalisations</h2>
+							<h3>Sites web réalisés - Etape par Etape</h3>
+					</a></div>
+				</div>
+				<footer>
+					<div class="tile-footer" id="designer">
+						<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
 
-				<div class="tile-footer" id="reseaux-sociaux"> 
-					<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img alt="face book jean rosset" src="img/facebook.png"/></a>
-					<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img alt="linkedin jean rosset" src="img/linkedin.png"/></a>
-					<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img alt="youtube jean rosset" src="img/youtube.png"/></a>
-					<a href="https://felicien-leclerc-ESDES.github.io" target="_blank"><img alt="icone vers site Felicien Leclerc" src="img/man.png"/></a>
-				</div>
-				<div class="tile-footer" id="top">
-					<a class="js-scrollTo" href="#header" target="_blank"><img alt="fleche vers le haut" src="img/arrow-top.png"/></a>
-				</div>
-			</footer>
-   		</div>
-    </section>
-	</body>
-</html>
+					</div>
+
+					<div class="tile-footer" id="reseaux-sociaux"> 
+						<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img alt="face book jean rosset" src="img/facebook.png"/></a>
+						<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img alt="linkedin jean rosset" src="img/linkedin.png"/></a>
+						<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img alt="youtube jean rosset" src="img/youtube.png"/></a>
+						<a href="https://felicien-leclerc-ESDES.github.io" target="_blank"><img alt="icone vers site Felicien Leclerc" src="img/man.png"/></a>
+					</div>
+					<div class="tile-footer" id="top">
+						<a class="js-scrollTo" href="#header" target="_blank"><img alt="fleche vers le haut" src="img/arrow-top.png"/></a>
+					</div>
+				</footer>
+			</div>
+		</section>
+		</body>
+	</html>
