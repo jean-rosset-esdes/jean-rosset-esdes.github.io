@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
-
+b{
+	font-weight: 300;
+    color: #000;
+}
+li{
+	font-weight: 100;
+	text-align: left;
+}
 #btn{
 	border-radius: 5px;
 	padding: 5px;

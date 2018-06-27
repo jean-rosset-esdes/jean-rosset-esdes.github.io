@@ -280,6 +280,10 @@ transition: .5s ease;
 .tile-mes-realisations{
 	min-height: 40vh;
 	max-height: 40vh;
+	background-image: url(img/expertise.png);
+	background-position: center right;
+	background-size: 47%;
+	background-repeat: no-repeat;
 	background-color: #8CDACF;
 	width: 100%;
 	display: flex;
@@ -291,12 +295,25 @@ transition: .5s ease;
 	font-size: 23px;
     font-weight: 300;
 	color: #fff;
+	margin-left: 20px;
 }
 .tile-mes-realisations h3{
-	font-size: 15px;
-    font-weight: 100;
+	font-size: 18px;
+    font-weight: 300;
     margin-top: 0px;
 	color: #fff;
+	margin-left: 20px;
+}
+.tile-mes-realisations p{
+	font-size: 100%;
+	font-weight: 100;
+	color: #fff;
+	margin-bottom: 0px;
+    margin-right: 50%;
+	margin-top: 5%;
+    margin-left: 30px;
+	text-align: justify;
+	
 }
 .tule2{
 	height: 40vh;
@@ -304,7 +321,7 @@ transition: .5s ease;
 	display: flex;
 	flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 .tule2:hover{
 	background-color: rgba(0,0,0,0.50);
