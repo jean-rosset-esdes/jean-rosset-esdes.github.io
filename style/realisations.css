@@ -199,7 +199,6 @@ hr{
 .mes-realisations:hover a:not(:hover) {
 	opacity: .3;
 	filter: alpha(opacity=30);
-	
 	-webkit-transform: scale(.9);
 	-moz-transform: scale(.9);
 	-ms-transform: scale(.9);
@@ -212,6 +211,18 @@ hr{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+.list-strat{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 50px;
+    margin-top: 20px;
+}
+.list-strat li{
+	margin-top: 5px;
+    margin-bottom: 5px;
 }
 /*Annimation*/
 @-webkit-keyframes pulse {

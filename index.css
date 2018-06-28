@@ -174,7 +174,7 @@ transition: .5s ease;
 #about-gauche img{
 	width: 20%;
 }
-.about h2{
+.about p{
 	 font-size: 15px;
     font-weight: 300;
     color: #fff;
@@ -282,7 +282,7 @@ transition: .5s ease;
 	max-height: 40vh;
 	background-image: url(img/expertise.png);
 	background-position: center right;
-	background-size: 47%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-color: #8CDACF;
 	width: 100%;
@@ -309,8 +309,8 @@ transition: .5s ease;
 	font-weight: 100;
 	color: #fff;
 	margin-bottom: 0px;
-    margin-right: 50%;
-	margin-top: 5%;
+    margin-right: 55%;
+	margin-top: 2px;
     margin-left: 30px;
 	text-align: justify;
 	
