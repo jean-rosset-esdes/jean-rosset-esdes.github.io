@@ -205,6 +205,9 @@ hr{
 	-o-transform: scale(.9);
 	transform: scale(.9);
 }
+#realisation-none{
+	visibility: hidden;
+}
 .exemples{
 	min-height: 20vh;
 	display: flex;
