@@ -97,9 +97,36 @@ li{
 	font-size: 18px;
 }
 /*Reglage contenu partie Gauche*/
+header{
+	min-height: 100vh;
+	background-color: #003752;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+header h2{
+	font-size: 80px;
+    font-weight: 700;
+    color: #FFF;
+	margin-bottom: 0px;
+}
+header h3{
+	font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+	margin-top: 10px;
+}
+object{
+	width: 34%;
+    min-height: 80vh;
+	border-radius: 10px;
+	box-shadow: 0px 11px 83px -5px rgba(0, 0, 0, 0.5);
+}
 .step1{
 	min-height: 50vh;
 	width: 100%;
+	padding-top: 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -306,6 +333,16 @@ hr{
 		border: 0px;
 	}
 }
+@media screen and (max-width: 450px){
+	header h2{
+		font-size: 50px;
+		margin-left: 10px;
+	}
+	header h3{
+		font-size: 15px;
+		margin-left: 20px
+	}
+}
 @media screen and (max-width: 950px) {
 	.step1{
 		flex-direction: column;
@@ -336,4 +373,7 @@ hr{
 	.titre-realisation h3 {
 		font-weight: 100;
 }
+	.contact-form{
+		display: none;
+	}
 }
