@@ -134,7 +134,7 @@ iframe {
 
 .container-contact3 {
   width: 100%;  
-  min-height: 100vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -157,7 +157,10 @@ iframe {
   background: linear-gradient(45deg, #56ab2f, #a8e063);
   border-radius: 10px;
   overflow: hidden;
-  padding: 72px 55px 65px 55px;
+  padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
