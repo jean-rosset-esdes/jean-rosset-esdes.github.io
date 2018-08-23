@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+  text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+/**Bouton*/
+
+.contact3-form-btn {
+	font-weight: 300;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
+  background: #80c64a;
+  background: -webkit-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: -o-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: -moz-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: linear-gradient(-135deg, #56ab2f, #a8e063);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact3-form-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 1;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact3-form-btn:hover {
+  color: #fff;
+}
+
+.contact3-form-btn:hover:before {
+  opacity: 0;
+}
+/** Bouton 2**/
+.btn-card {
+	font-weight: 300;
+  font-size: 12px;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
+  background: #80c64a;
+  background: -webkit-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: -o-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: -moz-linear-gradient(-135deg, #56ab2f, #a8e063);
+  background: linear-gradient(-135deg, #56ab2f, #a8e063);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 1;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-card:hover {
+  color: #fff;
+}
+
+.btn-card:hover:before {
+  opacity: 0;
+}
+
+/*annimation bloc*/
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-20px);}
+}
+
+/**Responsive**/
+@media screen and (max-width: 978px) {
+  .body2 {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+}
+@media screen and (max-width: 978px) {
+  .partie-gauche {
+	min-height: 15vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1;
+  }
+	.photo-profil{
+		display: none;
+	}
+	.partie-gauche h2{
+		display: none;
+	}
+}
+@media screen and (max-width: 978px) {
+  .menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+	.menu-row h3{
+		font-size: 10px;
+	}
+}
+/**RESPONSIVE**/
+@media screen and (max-width: 950px) {
+  .menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+	.menu-row h3{
+		font-size: 8px;
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+	.menu-row{
+		padding-left: 10px;
+		padding-right: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu-row:hover{
+		border: 0px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#designer h2{
+		font-size: 10px;
+	}
+	#reseaux-sociaux img {
+    	width: 25px;
+}
+}
+
+/*annimation AOS*/
+AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+
+  // Settings that can be overriden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+});
