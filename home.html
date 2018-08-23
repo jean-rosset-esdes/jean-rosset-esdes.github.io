@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jean ROSSET - Developpement de Site Web</title>
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<link rel="stylesheet" href="home.css"/>
+<link rel="stylesheet" href="style/common-home.css"/>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+<link rel="stylesheet" type="text/css" href="css/style6.css" /><!-- effet ici -->
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header" id="header">
+		<div class="header-tile" id="header-gauche">
+		<div class="hamburger">
+			<div class="container">
+			<section class="menu">
+				<p><button id="trigger-overlay" type="button"><img src="img/menu-blanc.png"></button></p>
+			</section>
+		</div>
+		<div class="overlay overlay-door"><!-- effet ici -->
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="page2/expertise.html">Notre Expertise</a></li>
+					<li><a href="page2/realisation.html">Nos Réalisations</a></li>
+					<li><a href="pages/experiences.html">Experiences</a></li>
+					<li><a href="pages/formation.html">Formation</a></li>
+					<li><a href="page2/hobbies.html">Hobbies</a></li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+			<h1>Rapide, Simple & Intelligent </h1>
+			<h2>DigiliWeb vous accompagne dans la création de votre site web.</h2>
+		</div>
+		<div class="header-tile" id="header-droit">
+			<object class="contact-form" data="contact-form/index.html" type="text/html"></object>
+		</div>
+		</div>
+		<div id="header-bas">
+			<a class="js-scrollTo" href="#expertise"><img alt="fleche vers le bas" src="img/down-arrow-header.png"></a>
+		</div>
+	</header>
+	<section id="expertise" class="section">
+		<div class="tile-expertise-gauche">
+			<img src="img/mockup-header2.png">
+		</div>
+		<div class="tile-expertise-droit">
+			<h2>Notre Expertise</h2>
+			<h3>Conception de site web</h3>
+			<p>Vous avez une idée de site-web, ou tout simplement identifié le besoin d’être visible sur le web. Nous vous accompagnons à chaque étape de la conception de votre vitrine 2.0.<br>
+			De la conception d’interface aux différentes version, nous vous conseillons et vous accompagnons jusqu’à la mise en place de vos stratégies marketing en fonction de vos KPI’s et de vos objectifs.</p>
+			<div class="bouton-expertise">
+				<a class="contact3-form-btn"  id="one" href="page2/expertise.html">Notre expertise</a>
+				<a class="contact3-form-btn" href="page2/realisation.html">Nos réalisations</a>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="section">
+		<div class="tile-about">
+		<img src="img/quotation-mark.png">
+		<h2>Jean ROSSET</h2>
+		<p>Passionnés par l'univers du web et des stratégies qui en découlent, nous souhaitons accompagner des entreprises dans la création de leur site web, et dans la mise en place de levier stratégique.</p>
+		</div>
+	</section>
+	<section id="menu" class="section">
+		<div class="tile-menu">
+			<h2>Notre Équipe</h2>
+		</div>
+		<div class="tile-card">		
+			<div class="card">
+				<img src="img/photo-card.png">
+				<h1>Jean ROSSSET</h1>
+				<h2>Web designer & Developper</h2>
+					<hr>
+				<div>
+					<a class="btn-card" href="#">Experience</a>
+					<a class="btn-card" href="#">Formation</a>
+					<a class="btn-card" href="page2/hobbies.html">Hobbies</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/pp-marie.png">
+				<h1>Marie ABBOUD</h1>
+				<h2>Account Manager</h2>
+					<hr>
+				<div>
+					<a class="btn-card" href="https://www.linkedin.com/in/marie-abboud-01ba4089">Linkedin</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="section">
+		<object class="contact-form" data="contact-form/index.html" type="text/html"></object>
+		<div id="tile-contact-droit" class="tile-contact">
+			<h2>The Best Place to Hide a Dead Body is Page Two of Google</h2>
+			<img src="img/quotation-mark-inverse.png">
+		</div>
+		<a class="btn-card" id="contact-us" href="#">Nous contacter</a>
+	</section>
+	<footer>
+		<div class="tile-footer" id="designer">
+			<h2>Designed with</h2><div id="heart"></div><h2>by Jean ROSSET</h2>
+		</div>
+		<div class="tile-footer" id="reseaux-sociaux"> 
+			<a href="https://www.facebook.com/jean.rosset.9" target="_blank"><img alt="face book jean rosset" src="img/facebook.png"/></a>
+			<a href="https://www.linkedin.com/in/jean-rosset/" target="_blank"><img alt="linkedin jean rosset" src="img/linkedin.png"/></a>
+			<a href="https://www.youtube.com/channel/UC287jTgtTSoADxU3XkE5iTw?view_as=subscriber" target="_blank"><img alt="youtube jean rosset" src="img/youtube.png"/></a>
+		</div>
+		<div class="tile-footer" id="top">
+			<a class="js-scrollTo" href="#header-gauche"><img alt="fleche vers le haut" src="img/arrow-top.png"/></a>
+		</div>
+	</footer>
+<script src="js/classie.js"></script>
+<script src="js/demo1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+<script>
+	$(".container").click(function(){
+  $(".container").removeClass("active");
+  $(this).addClass("active");
+});
+</script>
+</body>
+</html>
