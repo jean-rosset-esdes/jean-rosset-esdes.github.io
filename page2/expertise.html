@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" href="../style/common-home.css"/>
+		<link rel="stylesheet" href="../style2/expertise.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style6.css" /><!-- effet ici -->
+		<script src="../js/modernizr.custom.js"></script>
+		<title>Expertise - Developpement de Site Web</title>
+		<meta name="Description" content="Vous avez identifié le besoin d'une meilleure visibilité sur le web ? Faites vous accompagner dans le developpement de votre vitrine, ainsi que dans la mise en place de levier stratégique.">
+
+	<!--Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120157374-1');
+	</script>
+	<!-- Library JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+<header id="top1">
+	<div class="tile-header">
+		<a href="../home.html#expertise"><img id="back" src="../img/arrow-header copie.png"></a>
+		<h2>Notre<br>Expertise</h2>
+	</div>
+	<div class="tile-header" id="header-img">
+		<img id="image-header" src="../img/mockup-header.png">
+	</div>
+</header>
+<section class="diagonal" id="step1">
+    <div class="expertise-gauche">
+    	<h2>Compréhension de vos besoins</h2>
+    	<p>Si vous avez une idée de site web, c’est qu’implicitement vous pensez avoir identifié le besoin d'avoir une visibilité sur le web. Grâce à mon expertise en product thinking, je suis capable de vous accompagner tout au long de la conception de votre vitrine online.</p>
+    	<a class="contact3-form-btn" href="#">En savoir plus</a>
+    </div>
+    <div class="expertise-droit">
+    	<img src="../img/meeting-client-new.png">
+    </div>
+</section>
+<section class="diagonal" id="step2">
+    <div class="expertise-gauche">
+        <h2>Conception d’interfaces clés</h2>
+    	<p>Si vous avez une idée de site web, c’est qu’implicitement vous pensez avoir identifié le besoin d'avoir une visibilité sur le web. Grâce à mon expertise en product thinking, je suis capable de vous accompagner tout au long de la conception de votre vitrine online.</p>
+    	<a class="contact3-form-btn" href="#">En savoir plus</a>
+    </div>
+    <div class="expertise-droit">
+    	<img src="../img/conception-client-new.png">
+    </div>
+</section>
+<section class="diagonal" id="step3">
+    <div class="expertise-gauche">
+       	<h2>Développement d’une version</h2>
+    	<p>Je mets en place une première version développée entièrement en HTML/CSS/JS, que nous validons ensemble, pour arriver à un résultat optimal pour votre business. Proposition de plusieurs versions, et nous effectuons ensemble des tests auprès de votre clientèle pour recueillir leurs avis, afin d'adapter le développement au plus proche des besoins de vos utilisateurs.</p>
+    	<a class="contact3-form-btn" href="#">En savoir plus</a>
+    </div>
+    <div class="expertise-droit">
+    	<img src="../img/dev-client-new.png">
+    </div>
+</section>
+<section class="diagonal" id="step4">
+    <div class="expertise-gauche">
+    	<h2>Mesure et validation</h2>
+    	<p>Lors de la première phase nous avons élaboré ensemble différentes stratégies marketing en lien avec la stratégie globale de votre entreprise. Le site web a été développé afin de répondre à ces objectifs, tout en tenant compte des attentes et motivations de vos prospects & clients. Après le déploiement de votre site web, je continue à vous accompagner en suivant le trafic généré par celui-ci, afin d'adapter votre nouvelle vitrine en fonction des différents comportements de vos clients. </p>
+    	<a class="contact3-form-btn" href="#">En savoir plus</a>
+    </div>
+    <div class="expertise-droit">
+    	<img src="../img/kpi-client-new.png">
+    </div>
+</section>
+	<footer id="footer-2">
+		<a class="js-scrollTo" href="#top1">
+		<img src="../img/side-up.png">
+		</a>
+	</footer>
+<script src="../js/classie.js"></script>
+<script src="../js/demo1.js"></script>
+</body>
+</html>

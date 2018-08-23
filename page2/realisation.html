@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" href="../style/common-home.css"/>
+		<link rel="stylesheet" href="../style2/realisation.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<title>Réalisation - Developpement de Site Web</title>
+		<meta name="Description" content="Vous avez identifié le besoin d'une meilleure visibilité sur le web ? Découvrez les différents travaux réalisés pour des clients renommés.">
+
+	<!--Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120157374-1');
+	</script>
+	<!-- Library JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+<header id="top1">
+	<div class="tile-header-haut">
+		<a href="../home.html#expertise"><img id="back" src="../img/arrow-header copie.png"></a>
+	</div>
+	<div>
+		<h2>WEB DESIGN<br>REFONTE<br>STRATÉGIE</h2>
+		<p>DigiliWeb a accompagné plusieurs projets de refonte web, en retravaillant le web design, en accompagnant les stratégies marketing, tout en s'impliquant à chaque étape des projets.</p>
+	</div>
+	<div id="header-bas">
+		<a class="js-scrollTo" href="#deydiconcept"><img alt="fleche vers le bas" src="../img/down-arrow-header.png"></a>
+	</div>
+</header>
+<section class="intercalaire" id="inter-1"></section>
+<section class="section-customer" id="deydiconcept">
+	<div>
+		<h3 data-aos="zoom-out-right">Projet 1</h3>
+		<h2 data-aos="zoom-out-right">DEYDICONCEPT</h2>
+		<p data-aos="zoom-out-right">Nous avons travailler conjointement avez les équipes de Deydiconcept, afin de leur apporter un showroom de cuisine directement sur le web.</p>
+		<a class="contact3-form-btn" href="http://www.deydiconcept.com/" target="_blank" data-aos="zoom-out-right">Voir le site</a>
+	</div>
+</section>
+<section class="intercalaire" id="inter-2"></section>
+<section id="spella">
+	<div id="div-vide"></div>
+	<div>
+		<h3 data-aos="zoom-out-left">Projet 2</h3>
+		<h2 data-aos="zoom-out-left">SPELLA</h2>
+		<p data-aos="zoom-out-left">Nous avons accompagné cette start'up dans la refonte de leur site web, visant à monter en gamme par rapport à leur concurent.</p>
+		<a class="contact3-form-btn" href="https://www.datastitute.fr/" target="_blank" data-aos="zoom-out-left">Voir le site</a>
+	</div>
+</section>
+<section class="intercalaire" id="inter-3"></section>
+<section class="section-customer" id="pancakerie">
+	<div>
+		<h3 data-aos="zoom-out-right">Projet 3</h3>
+		<h2 data-aos="zoom-out-right">LA PANCAKERIE</h2>
+		<p data-aos="zoom-out-right">Projet d'école dans lequel nous avons travailler sur une plateforme destiné aux clients d'un établisssement de Pancake, pour faciliter la reservation d'une table dans le restaurant.</p>
+		<a class="contact3-form-btn" href="https://pancakerie.github.io/" target="_blank" data-aos="zoom-out-right">Voir le site</a>
+</div>
+</section>
+<section class="intercalaire" id="inter-4"></section>
+	<footer id="footer-2" data-aos="zoom-in">
+		<a class="js-scrollTo" href="#top1">
+		<img src="../img/side-up.png">
+		</a>
+	</footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

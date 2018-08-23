@@ -1,0 +1,362 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/* CSS Document */
+body{
+	margin: 0px;
+	height: 100%;
+	position: relative;
+	font-family: montserrat;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/*Header*/
+
+header{
+	min-height: 90vh;
+	width: 100%;
+	background-image: url(../img/dash.png);
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+.header div{
+	width: 50%;
+}
+.header-droit img{
+	width: 30%;
+	z-index: 2;
+}
+#ball2{
+	position: absolute;
+	width: 15%;
+    top: 15%;
+}
+#ball3{
+	position: absolute;
+	width: 15%;
+    top: 4%;
+	left: 10%;
+}
+#ball4{
+	position: absolute;
+	width: 15%;
+    top: 40%;
+	right: 10%;
+}
+#ball5{
+	position: absolute;
+	width: 15%;
+    bottom: 30%;
+	left: 45%;
+}
+#ball6{
+	position: absolute;
+	width: 15%;
+    bottom: 50%;
+	left: 5%;
+}
+.bouton-back{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 10vh;
+	width: 100%;
+	margin-left: 10%;
+}
+header h1{
+	 color: #fff;
+    font-size: 120px;
+    font-weight: 500;
+    margin-bottom: 25%;
+    margin-left: 10%;
+}
+header a{
+}
+#back{
+	width: 10%;
+	border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 15px;
+}
+#back:hover{
+	animation: pulse 1s infinite;
+}
+/*SECTION*/
+
+section{
+	position: relative;
+	min-height: 40vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.tile-hobbies{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	min-height: 200vh;
+}
+.tile-hobbies h2{
+	position: absolute;
+	bottom: 95%;
+	font-family: roboto;
+	font-size: 100px;
+	font-weight: 900;
+	color: #fff;
+	margin-top: 0px;
+	z-index: 1;
+}
+#tile-sport-droit h2{
+	right: 34%;
+}
+#tile-sport-gauche h2{
+	left: 35%;
+    top: 13%;
+}
+#tile-sport-droit p{
+	right: 28%;
+	position: absolute;
+	bottom: 97%;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 100;
+	color: #fff;
+	margin-top: 0px;
+	z-index: 1
+}
+#tile-sport-gauche img{
+	width: 45%;
+    position: absolute;
+    left: -2%;
+    top: 10%;
+	box-shadow: 0 38px 43px rgba(0,0,0,.45);
+}
+#tile-sport-droit2 img{
+	width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 45%;
+	box-shadow: 0 38px 43px rgba(0,0,0,.45);
+}
+#tile-sport-droit2 h2{
+	top: 50%;
+    right: 25%;
+}
+#tile-sport-droit2 p{
+	right: 30%;
+	position: absolute;
+	bottom: 40%;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 100;
+	color: #fff;
+	margin-top: 0px;
+	z-index: 1
+}
+#tile-sport-gauche p{
+	position: absolute;
+	top: 20%;
+    left: 37%;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 100;
+	color: #fff;
+	margin-top: 0px;
+	z-index: 1
+}
+#tile-hobbies-gauche{
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+#tile-hobbies-droit{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#tile-sport-gauche{
+	justify-content: flex-start;
+	align-items: center;
+}
+#tile-sport-droit img{
+	width: 40%;
+	bottom: 70%;
+    position: absolute;
+    right: 0%;
+	box-shadow: 0 38px 43px rgba(0,0,0,.45);
+}
+#card-gauche1{
+	top: -10%;
+}
+#card-gauche2{
+	top: 25%;
+}
+#card-gauche3{
+	top: 60%;
+}
+#card-droit1{
+	bottom: 70%;
+}
+#card-droit2{
+	bottom: 35%;
+}
+#card-droit3{
+	bottom: 0%;
+}
+.card-hobbies{
+	position: absolute;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+	min-height: 50vh;
+	width: 30%;
+	background-color: #fff;
+	box-shadow: 0 38px 43px rgba(0,0,0,.45);
+	z-index: 1;
+}
+.card-hobbies iframe{
+	width: 90%;
+	min-height: 35vh; 
+	margin-top: 5%;
+}
+.card-hobbies embed{
+	width: 90%;
+	min-height: 35vh; 
+	margin-top: 5%;
+}
+.card-hobbies h3{
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.card-hobbies h4{
+	font-family: 'Dancing Script', cursive;
+	font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+.second-bloc{
+	min-height: 20vh;
+	width: 100%;
+}
+/*Footer Page*/
+#footer-2{
+	min-height: 20vh;
+	width: 100%;
+	background-color: #fff;
+}
+#footer-2 img{
+	width: 5%;
+	z-index: 1;
+}
+#footer-2 a{
+	min-height: 20vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#footer-2 a:hover{
+	background-color: #1e0f21;
+	transition: all 100ms cubic-bezier(.64,.45,1,.31);
+}
+
+/* ANNIMATION */
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(256, 256, 256, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+  }
+}
+/*RESPONSIVE*/
+
+@media screen and (max-width: 800px){
+	header h1{
+		font-size: 70px;
+	}
+	#back {
+    	width: 7%;
+		
+}
+	header{
+		min-height: 50vh;
+		justify-content: flex-start;
+		margin-top: 25px;
+	}
+	.tile-hobbies{
+		min-height: 150vh;
+	}
+	.card-hobbies {
+		min-height: 47vh;
+		width: 42%;
+}
+	.tile-hobbies h2{
+		font-size: 70px;
+	}
+	#tile-sport-droit h2 {
+		right: 55%;
+		top: -1%;
+}
+	#tile-sport-droit p {
+    right: 10%;
+	bottom: 87%;
+}
+	#tile-sport-gauche h2 {
+		left: 43%;
+		top: 37%;
+	}
+	#tile-sport-gauche p {
+		top: 45%;
+		left: 55%;
+}
+	#tile-sport-droit2 h2 {
+		top: 75%;
+		right: 25%;
+}
+	#tile-sport-droit2 p {
+		right: 15%;
+		position: absolute;
+		bottom: 13%;
+}
+	#tile-sport-gauche img {
+    	width: 70%;
+		top: 35%;
+}
+	#tile-sport-droit img{
+		width: 70%;
+	}
+	#tile-sport-droit2 img {
+    width: 70%;
+    top: 72%;
+}
+	#ball5 {
+    bottom: 23%;
+}
+	#footer-2 img {
+		width: 10%;
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" href="../style/common-home.css"/>
+		<link rel="stylesheet" href="../style2/hobbies.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<title>Hobbies - Developpement de Site Web</title>
+		<meta name="Description" content="Vous avez identifié le besoin d'une meilleure visibilité sur le web ? Découvrez les différents travaux réalisés pour des clients renommés.">
+
+	<!--Google Analytics-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120157374-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120157374-1');
+	</script>
+	<!-- Library JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+<header id="top1">
+<div class="bouton-back">
+	<a href="../home.html#menu"><img id="back" src="../img/arrow-header copie.png"></a>
+</div>
+<div class="header">
+	<div>
+		<h1>HOBBIES</h1>
+	</div>
+	<div class="header-droit">
+		<img data-aos="zoom-out-down" class="ball" id="ball2" src="../img/ball1.png">
+		<img data-aos="zoom-out-up" class="ball" id="ball3" src="../img/ball1.png">
+		<img data-aos="zoom-out-up" class="ball" id="ball4" src="../img/ball1.png">
+		<img data-aos="zoom-out-up" class="ball" id="ball5" src="../img/ball1.png">
+		<img data-aos="zoom-out-up" class="ball" id="ball6" src="../img/ball1.png">
+	</div>
+</div>
+</header>
+<section>
+	<div class="tile-hobbies" id="tile-hobbies-gauche">
+		<div class="card-hobbies" id="card-gauche1">
+			<iframe src="https://www.youtube.com/embed/_--kRthdjTU?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<h3>Thailande</h3>
+			<h4>Août 2018</h4>
+		</div>
+		<div class="card-hobbies" id="card-gauche2">
+			<iframe src="https://www.youtube.com/embed/E-uhjPEd5pM?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<h3>Saint Petersbourg</h3>
+			<h4>Mai 2016</h4>
+		</div>
+		<div class="card-hobbies" id="card-gauche3">
+			<embed src= "../video/Croatia.mp4" autoplay="0" />
+			<h3>Croatie</h3>
+			<h4>Août 2016</h4>
+		</div>
+	</div>
+	<div class="tile-hobbies" id="tile-hobbies-droit">
+		<div class="card-hobbies" id="card-droit1">
+			<iframe src="https://www.youtube.com/embed/YKfkmRy6eCA?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<h3>Laponie</h3>
+			<h4>Fevrier 2016</h4>
+		</div>
+		<div class="card-hobbies" id="card-droit2">
+			<iframe src="https://www.youtube.com/embed/tsnNx7LWWJ0?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<h3>Stockholm</h3>
+			<h4>Mars 2016</h4>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="tile-hobbies" id="tile-sport-gauche">
+		<h2>Surf</h2>
+		<p>Hossegor - Nouvelle-Aquitaine</p>
+		<img src="../img/jean-surf.png">
+	</div>
+	<div class="tile-hobbies">
+		<div id="tile-sport-droit">
+			<h2>Vélo</h2>
+			<p>Mont Ventoux - Provence-Alpes-Côte d'Azur<br>2:13:00</p>
+			<img src="../img/jean-sport.png">
+		</div>
+		<div id="tile-sport-droit2">
+			<h2>Passion</h2>
+			<p>Saint Didier - Provence-Alpes-Côte d'Azur</p>
+			<img src="../img/jean-code.png">
+		</div>
+	</div>
+</section>
+<div class="second-bloc">
+	
+</div>
+	<footer id="footer-2" data-aos="zoom-in">
+		<a class="js-scrollTo" href="#top1">
+		<img src="../img/side-up.png">
+		</a>
+	</footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
